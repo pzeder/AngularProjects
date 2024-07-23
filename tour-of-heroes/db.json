@@ -1,0 +1,9 @@
+{
+  "heroes": [
+    {
+      "id": "9d45",
+      "name": "New Hero",
+      "isLegendary": false
+    }
+  ]
+}

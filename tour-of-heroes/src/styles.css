@@ -1,0 +1,114 @@
+.main-title {
+    font-family: Garamond, serif;
+    font-style: normal;
+    font-size: 7vw;
+    color: rgb(189, 160, 0);
+    margin: 2vw auto;
+    padding: 0vw 1vw;
+    text-align: center;
+    user-select: none;
+}
+
+hr {
+    border: none;       
+    height: 2px;         
+    background-color: #333; 
+    width: 75%;  
+    height: 0.3vw;
+    border-radius: 1vw;  
+    margin: 2vw auto;    
+}
+
+.golden-button {
+    font-family: Garamond, serif;
+    font-size: 5vw;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.4vw;
+    border-radius: 0.5vw;
+    color: rgb(189, 160, 0);
+    border-color: rgb(189, 160, 0);
+    padding: 0vw 1vw;
+    transition: transform 0.5s, color 0.5s, border-color 0.5s;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.golden-button:hover {
+    color:rgb(219, 186, 0);
+    border-color:rgb(219, 186, 0);
+    transform: scale(1.01);
+}
+
+.small-font {
+    font-size: 4vw;
+}
+
+.tiny-button {
+    font-size: 2vw;
+    border-width: 0.3vw;
+}
+
+.micro-button {
+    font-size: 1vw;
+    border-width: 0.2vw;
+}
+
+.center-flex-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.center-container {
+    display: grid;
+    justify-content: center;
+}
+
+.center-align-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.gap {
+    gap: 1vw;
+}
+
+.regular-text {
+    font-family: Garamond, serif;
+    font-size: 1.5vw;
+    color: rgb(44, 44, 44);
+}
+
+.thin {
+    width: 72%;
+    height: 0.1vw;
+    background-color: gray;
+}
+
+.golden {
+    color: rgb(189, 160, 0);
+}
+
+.margin {
+    margin: 0.5vw;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}
+
+.hero-name {
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 2vw;
+    color: rgb(189, 160, 0);
+    margin: 0.5vw auto;
+    padding: 0vw 1vw;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+}
